@@ -1,5 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: url(../imagenes/fondo3.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
 .container{
-    height: 100vh;
-    text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  background-color: transparent;
+  border-radius: 20%;
+  border:white solid 5px;
+  margin-top: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.enlaces {
+  
+}
+.listaEnlaces {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+
+.linea{
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
+
+.titulo{
+    font-size: 50px;
 }
